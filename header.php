@@ -18,15 +18,16 @@
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php wp_head(); ?>
+  <!-- Start: ReCAPTCHA 3.0v -->
   <script src = "https://www.google.com/recaptcha/api.js?render=6Ldqqo4UAAAAAAdmok4uvTOFK21k_YmqOErJN2vO" > </script>
-  <script>   grecaptcha . ready ( function () {
-<<<<<<< HEAD
-    grecaptcha . execute ( ' 6Ldqqo4UAAAAAAdmok4uvTOFK21k_YmqOErJN2vO ' , {action : ' homepage ' }).
-=======
-    grecaptcha . execute ( ' reCAPTCHA_site_key ' , {action : ' homepage ' }).
->>>>>>> 650e30a912bb9a9eb6f3b9c09b3c6f20a418aba3
-    then ( function ( token ) { ... }); });
-  </script>
+  <script>
+    grecaptcha . ready ( function () {
+      grecaptcha . execute ( '6Ldqqo4UAAAAAAdmok4uvTOFK21k_YmqOErJN2vO' , {
+        action : ' homepage ' }).
+        then ( function ( token ) { ... });
+      });
+    </script>
+    <!-- End: ReCAPTCHA 3.0v -->
 
 
 
