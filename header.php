@@ -18,7 +18,18 @@
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php wp_head(); ?>
-	<script src='https://www.google.com/recaptcha/api.js'></script>
+  <script src = "https://www.google.com/recaptcha/api.js?render=6Ldqqo4UAAAAAAdmok4uvTOFK21k_YmqOErJN2vO" > </script>
+  <script>   grecaptcha . ready ( function () {
+    grecaptcha . execute ( ' reCAPTCHA_site_key ' , {action : ' homepage ' }).
+    then ( function ( token ) { ... }); });
+  </script>
+
+
+
+
+
+
+
 </head>
 
 <body <?php body_class(); ?>>
