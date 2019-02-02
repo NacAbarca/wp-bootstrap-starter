@@ -18,7 +18,7 @@
 	<footer id="colophon" class="site-footer <?php echo wp_bootstrap_starter_bg_class(); ?>" role="contentinfo">
 		<div class="container-fluid p-3 p-md-5">
             <div class="site-info">
-                <?php  '2015 - '.echo date('Y').' &copy; Derechos de autor | Todos los derechos reservados';?>
+                <?php  echo '2015 - '.date('Y').' &copy; Derechos de autor | Todos los derechos reservados';?>
                 <span class="sep"> | </span>
                 <i class="fa fa-wordpress"></i> WordPress Desarrollador por <a class="credits" href="<?php home_url(); ?>" target="_blank" title="<?php bloginfo(); ?>"> <?php bloginfo(); ?></a>
 
